@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9479ef49-f0eb-4336-b779-17ef1ce12ad0": {
+        "id": "9479ef49-f0eb-4336-b779-17ef1ce12ad0",
+        "parent": null,
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "function.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "a28d75c0-5a0a-41b1-b846-05f8c91fb36e": {
+            "id": "a28d75c0-5a0a-41b1-b846-05f8c91fb36e",
+            "functionId": "9479ef49-f0eb-4336-b779-17ef1ce12ad0",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      },
+      "cb394045-795c-4de1-9b68-b9ee9de64fc9": {
+        "id": "cb394045-795c-4de1-9b68-b9ee9de64fc9",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "072be891-2425-4424-ba62-3d5104266a4c": {
+        "id": "072be891-2425-4424-ba62-3d5104266a4c",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "9479ef49-f0eb-4336-b779-17ef1ce12ad0"
+    ],
+    "currentFileId": "9479ef49-f0eb-4336-b779-17ef1ce12ad0",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MyFirstProject",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582697721457
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstproject-sigma-1582697748229",
+      "url": "https://github.com/Indunil1992/myfirstproject-sigma-1582697748229"
+    }
+  }
+}
